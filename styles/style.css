@@ -1,0 +1,128 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Krona+One&family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Krona+One&family=My+Soul&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+:root {
+    --cor-principal: black;
+    --cor-secundaria: white;
+    --cor-terciaria: yellow;
+    --cor-rover: #272727;
+    --fonte-principal: "Krona One", sans-serif;
+    --fonte-secundaria: "My Soul", cursive;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+    color:var(--cor-secundaria);
+}
+
+.cabecalho__link {
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cabecalho{
+    padding: 10% 10% 0% 10%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.titulo-destaque {
+    color: blue;
+}
+
+.titulo-circus {
+    color: yellow;
+}
+
+strong {
+    color: red;
+}
+.conteudo__apresentacao {
+   margin: 5%;
+   padding: 5%;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+
+}
+
+
+.conteudo__apresentacao__texto {
+    font-size: 16px;
+    font-family:  var(--fonte-principal);
+}
+
+
+.conteudo__apresentacao__titulo {
+    color: var(--cor-terciaria);
+    font-size: 40px;
+    font-family: var(--fonte-secundaria);
+}
+
+
+.conteudo__apresentacao__titulo__texto {
+    flex: 1 1 60%;
+    font-size: 50px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.links__link {
+    justify-content: center;
+    background-color: var(--cor-principal);
+    border: 2px ridge red;
+    width: 378px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 24px 0;
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-principal);
+    
+}
+
+.links__link:hover {
+    background-color: var(--cor-rover);
+}
+
+.subtitulo__link {
+    font-family:  var(--fonte-principal);
+    font-weight: 100;
+    font-size: 16px;
+}
+
+
+.rodape {
+    padding: 15px;
+    color:blue;
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #272727;
+    text-align: center;
+
+}
